@@ -17,10 +17,14 @@ const config: Config = {
                     "bg-scroll 80s 2s linear infinite, bg-scroll 2s, opacity 2s forwards",
                 "bg-scroll-fast":
                     "bg-scroll 40s 2s linear infinite, bg-scroll-intro 2s, opacity 2s forwards",
-                "opacity": "opacity 2s forwards",
-                "typing": "typing 2s 2s steps(40, end) forwards, blink 0.5s 2s 6",
-                "slide-down": "slide-down 1s 4s forwards, opacity 1s 4s forwards",
-                "slide-right": "slide-right 0.5s 4.5s forwards, opacity 0.5s 4.5s forwards",
+                "bg-scroll-fastest":
+                    "bg-scroll 20s 2s linear infinite, bg-scroll-intro-fast 2s, opacity 2s forwards",
+                opacity: "opacity 2s forwards",
+                typing: "typing 2s 2s steps(40, end) forwards, blink 0.75s 2s 6",
+                "slide-down":
+                    "slide-down 1s 4s forwards, opacity 1s 4s forwards",
+                "slide-right":
+                    "slide-right 0.5s 4.5s forwards, opacity 0.5s 4.5s forwards",
             },
             dropShadow: { white: "rgba(255,255,255,0.69) 0px 0px 14px" },
             keyframes: {
@@ -36,23 +40,27 @@ const config: Config = {
                     "0%": { backgroundPositionY: "0" },
                     "100%": { backgroundPositionY: "-200vw" },
                 },
-                "typing": {
-                    "from": { width: "0" },
-                    "to": { width: "100%"}
+                "bg-scroll-intro-fast": {
+                    "0%": { backgroundPositionY: "0" },
+                    "100%": { backgroundPositionY: "-300vw" },
                 },
-                "blink": {
-                    "from": { borderColor: "transparent" },
+                typing: {
+                    from: { width: "0" },
+                    to: { width: "100%" },
+                },
+                blink: {
+                    from: { borderColor: "transparent" },
                     "50%": { borderColor: "white" },
-                    "to": { borderColor: "transparent" }
+                    to: { borderColor: "transparent" },
                 },
                 "slide-down": {
                     "0%": { transform: "translateY(100%)" },
-                    "100%": { transform: "translateY(0)" }
+                    "100%": { transform: "translateY(0)" },
                 },
                 "slide-right": {
                     "0%": { transform: "translateX(-100%)" },
-                    "100%": { transform: "translateX(0)" }
-                }
+                    "100%": { transform: "translateX(0)" },
+                },
             },
         },
     },

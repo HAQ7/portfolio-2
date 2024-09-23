@@ -17,14 +17,14 @@ export default function intro() {
                         <a className="grid place-items-center" href="https://www.linkedin.com/in/hussam-alqannam-9ab206299/">
                             <Image
                                 alt="linkedin icon"
-                                className="w-10 aspect-square"
+                                className="w-10 aspect-square hover:scale-110 transition-transform"
                                 src={linkedinIcon}
                             />
                         </a>
                         <a className="grid place-items-center" href="https://github.com/HAQ7">
                             <Image
                                 alt="github icon"
-                                className="w-10 aspect-square"
+                                className="w-10 aspect-square hover:scale-110 transition-transform"
                                 src={githubIcon}
                             />
                         </a>

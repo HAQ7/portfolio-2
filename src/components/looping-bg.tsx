@@ -16,7 +16,9 @@ export default function LoopingBg({
                 "bg-[length:100vw] " +
                 (img === "SPACE"
                     ? "bg-[url('../assets/looping-backgrounds/space-bg.png')] animate-bg-scroll-slow"
-                    : "bg-[url('../assets/looping-backgrounds/stars-small-bg.png')] animate-bg-scroll-fast")
+                    : img === "STARS-SMALL"
+                    ? "bg-[url('../assets/looping-backgrounds/stars-small-bg.png')] animate-bg-scroll-fast"
+                    : "bg-[url('../assets/looping-backgrounds/stars-large-bg.png')] animate-bg-scroll-fastest")
             }
         >
             {children}

@@ -5,7 +5,9 @@ export default function Portfolio() {
     return (
         <LoopingBg img={"SPACE"}>
             <LoopingBg img={"STARS-SMALL"}>
-            <Intro/>
+                <LoopingBg img={"STARS-LARGE"}>
+                    <Intro />
+                </LoopingBg>
             </LoopingBg>
         </LoopingBg>
     );
