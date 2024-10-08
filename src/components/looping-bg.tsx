@@ -13,12 +13,12 @@ export default function LoopingBg({
     return (
         <div
             className={
-                "bg-[length:100vw] " +
+                "sm:bg-[length:100vw] bg-cover " +
                 (img === "SPACE"
-                    ? "bg-[url('../assets/looping-backgrounds/space-bg.png')] animate-bg-scroll-slow"
+                    ? "bg-[url('../assets/looping-backgrounds/space-bg.png')] sm:animate-bg-scroll-slow animate-bg-scroll-slow-mobile"
                     : img === "STARS-SMALL"
-                    ? "bg-[url('../assets/looping-backgrounds/stars-small-bg.png')] animate-bg-scroll-fast"
-                    : "bg-[url('../assets/looping-backgrounds/stars-large-bg.png')] animate-bg-scroll-fastest")
+                    ? "bg-[url('../assets/looping-backgrounds/stars-small-bg.png')] sm:animate-bg-scroll-fast animate-bg-scroll-fast-mobile"
+                    : "bg-[url('../assets/looping-backgrounds/stars-large-bg.png')] sm:animate-bg-scroll-fastest animate-bg-scroll-fastest-mobile")
             }
         >
             {children}
