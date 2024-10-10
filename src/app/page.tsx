@@ -3,6 +3,7 @@ import Intro from '@/components/intro';
 import About from '@/components/about';
 import Volunteering from '@/components/volunteering';
 import Projects from '@/components/projects';
+import TechUsed from '@/components/tech-used';
 
 export default function Portfolio() {
   return (
@@ -14,6 +15,7 @@ export default function Portfolio() {
             <About />
             <Volunteering />
             <Projects />
+            <TechUsed />
           </div>
         </LoopingBg>
       </LoopingBg>
