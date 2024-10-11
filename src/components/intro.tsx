@@ -10,7 +10,7 @@ export default function intro() {
           Hussam AlQannam
         </h1>
         <div className="flex gap-10">
-          <h2 className="font-thin -translate-y-full opacity-0 animate-slide-down">
+          <h2 className="font-thin opacity-0 animate-into-sub-title">
             Web Dev
           </h2>
           <div className="flex gap-3 -translate-x-full opacity-0 animate-slide-right">

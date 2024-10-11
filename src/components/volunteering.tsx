@@ -1,5 +1,5 @@
-import Title from "./title";
-import volunteerIcon from "@/assets/volunteering.svg";
+import Title from "./common/title";
+import volunteerIcon from "@/assets/icons/volunteering.svg";
 import Image from "next/image";
 import cert from "@/assets/cert-group.png";
 

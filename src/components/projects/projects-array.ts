@@ -1,7 +1,7 @@
 export type project = {
     title: string;
     description: string;
-    href?: string;
+    href: string;
     tech: string[];
 };
 
@@ -17,7 +17,14 @@ export const projects: project[] = [
         title: "Code Board",
         description:
             "A Stack Overflow-like website where users can post questions, answers, comments, and rate them.",
+        href: "https://github.com/HAQ7/code-board",
         tech: ["PHP", "Javascript", "CSS"],
+    },
+    {
+        title: "React Quiz",
+        description: "A simple quiz app about ReactJS built with ReactJS.",
+        href: "https://haq7.github.io/quiz-app/",
+        tech: ["ReactJS", "TailwindCSS", "Framer Motion"],
     },
 
     {
@@ -46,11 +53,5 @@ export const projects: project[] = [
             "A simple game where you have to avoid the obstacles and get the highest score.",
         href: "https://haq7.github.io/aimless-pigeon/",
         tech: ["Javascript", "CSS"],
-    },
-    {
-        title: "React Quiz",
-        description: "A simple quiz app about ReactJS built with ReactJS.",
-        href: "https://haq7.github.io/quiz-app/",
-        tech: ["ReactJS", "TailwindCSS", "Framer Motion"],
     },
 ];

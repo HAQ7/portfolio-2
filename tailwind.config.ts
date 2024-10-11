@@ -13,10 +13,10 @@ const config: Config = {
                 foreground: "var(--foreground)",
             },
             borderColor: {
-                glass: 'rgba(255, 255, 255, 0.3)'
+                glass: "rgba(255, 255, 255, 0.3)",
             },
             boxShadow: {
-                glass: '0 4px 30px rgba(0, 0, 0, 0.1)'
+                glass: "0 4px 30px rgba(0, 0, 0, 0.1)",
             },
             animation: {
                 "bg-scroll-slow":
@@ -35,10 +35,13 @@ const config: Config = {
                 typing: "typing 2s 2s steps(40, end) forwards, blink 0.75s 2s 6",
                 overflow: "overflow 1s 5s forwards",
                 rotate: "rotate 10s linear infinite",
+                "slow-rotate": "rotate 100s linear infinite",
+                "slow-rotate-reverse": "rotate 100s linear infinite reverse",
                 "typing-nodelay":
                     "typing 1s steps(40, end) forwards, blink 0.75s 4",
-                "slide-down":
-                    "slide-down 1s 4s forwards, opacity 1s 4s forwards",
+                "into-sub-title": "opacity 1s 4s forwards",
+                "connect-sub-title":
+                    "opacity 1s 1s forwards",
                 "slide-right":
                     "slide-right 0.5s 4.5s forwards, opacity 0.5s 4.5s forwards",
             },
@@ -53,8 +56,8 @@ const config: Config = {
                     "100%": { backgroundPositionY: "-100vh" },
                 },
                 rotate: {
-                    "0%": { transform: "rotate(0deg)" },
-                    "100%": { transform: "rotate(360deg)" },
+                    "0%": { rotate: "0" },
+                    "100%": { rotate: "360deg" },
                 },
                 overflow: {
                     "0%": { overflow: "hidden" },

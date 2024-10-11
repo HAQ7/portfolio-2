@@ -1,10 +1,10 @@
-import Title from "./title";
-import userIcon from "@/assets/user.svg";
-import htmlTagIcon from "@/assets/code.svg";
-import tooldsIcon from "@/assets/tools.svg";
-import timeIcon from "@/assets/time.svg";
+import Title from "./common/title";
+import userIcon from "@/assets/icons/user.svg";
+import htmlTagIcon from "@/assets/icons/code.svg";
+import tooldsIcon from "@/assets/icons/tools.svg";
+import timeIcon from "@/assets/icons/time.svg";
 import Image from "next/image";
-import statsBg from "@/assets/stats.svg";
+import statsBg from "@/assets/icons/stats.svg";
 
 export default function About() {
     return (

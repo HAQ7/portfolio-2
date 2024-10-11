@@ -2,8 +2,8 @@ import Image from "next/image";
 import ParticlesBg from "./particles-bg";
 import blueGlow from "@/assets/blue-glow.png";
 import redGlow from "@/assets/red-glow.png";
-import codeIcon from '@/assets/code.svg'
-import Title from "./title";
+import codeIcon from '@/assets/icons/code.svg'
+import Title from "../common/title";
 import ProjectCarousel from "./project-carousel";
 
 export default function Projects() {

@@ -3,7 +3,7 @@
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 import glow from "@/assets/icon-glow.png";
-import circleIcon from "@/assets/circle.svg";
+import circleIcon from "@/assets/icons/circle.svg";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 
@@ -29,7 +29,7 @@ export default function Title(props: {
                     className="absolute w-14"
                     alt="title icon glow"
                 />
-                <Image src={props.image} className="w-14" alt="title icon" />
+                <Image src={props.image} className="w-12" alt="title icon" />
             </div>
             <div className="relative grid items-center sm:text-5xl text-4xl">
                 <h1
