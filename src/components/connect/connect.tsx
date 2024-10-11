@@ -43,7 +43,7 @@ export default function Connect() {
                 />
             </div> */}
             <div className="grid gap-1">
-                <div className="relative grid items-center sm:text-5xl text-4xl">
+                <div className="relative grid items-center text-5xl">
                     <h1
                         className={
                             "absolute drop-shadow-white overflow-hidden py-1 whitespace-nowrap border-r-2 border-transparent w-0 max-w-min " +
@@ -57,7 +57,7 @@ export default function Connect() {
                 </div>
                 <h2
                     className={
-                        "font-thin opacity-0 " +
+                        "font-thin opacity-0 text-5xl " +
                         (isInView ? "animate-connect-sub-title" : "")
                     }
                 >
