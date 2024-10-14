@@ -65,12 +65,12 @@ export default function ProjectCarousel() {
         <div ref={isInViewRef} className="w-full">
             <Swiper
                 effect={"coverflow"}
-                grabCursor={true}
                 centeredSlides={true}
                 slidesPerView={"auto"}
                 spaceBetween={30}
                 autoplay={{
                     delay: 3000,
+                    disableOnInteraction: true,
                 }}
                 onSwiper={swiper => {
                     swiperRef.current = swiper;
@@ -88,7 +88,7 @@ export default function ProjectCarousel() {
             >
                 {projects.map((project: project) => (
                     <SwiperSlide key={project.title} className="!w-min">
-                        <div className="rounded-2xl backdrop-blur-sm bg-[rgba(255,255,255,0.01)] border-2 border-glass shadow-glass sm:w-[29rem] w-[95vw] max-w-[29rem] font-extralight p-5 grid place-content-start gap-6 min-h-[20rem] relative z-10 overflow-hidden">
+                        <div className="rounded-2xl backdrop-blur-sm bg-[rgba(255,255,255,0.05)] border-2 border-glass shadow-glass sm:w-[29rem] w-[95vw] max-w-[29rem] font-extralight p-5 grid place-content-start gap-6 min-h-[20rem] relative z-10 overflow-hidden">
                             <h1 className="drop-shadow-white font-normal text-4xl z-10">
                                 {project.title}
                             </h1>

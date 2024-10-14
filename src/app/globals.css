@@ -9,6 +9,11 @@ body {
 
 body {
     scrollbar-color: rgb(21, 21, 21) black;
+    
+}
+
+* {
+    cursor: none !important;
 }
 
 .swiper-slide-active a {

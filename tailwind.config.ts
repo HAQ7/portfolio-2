@@ -35,6 +35,8 @@ const config: Config = {
                 typing: "typing 2s 2s steps(40, end) forwards, blink 0.75s 2s 6",
                 overflow: "overflow 1s 5s forwards",
                 rotate: "rotate 10s linear infinite",
+                "cursor-rotate": "rotate 20s linear infinite",
+                "cursor-rotate-reverse": "rotate 20s linear infinite reverse",
                 "slow-rotate": "rotate 100s linear infinite",
                 "slow-rotate-reverse": "rotate 100s linear infinite reverse",
                 "typing-nodelay":

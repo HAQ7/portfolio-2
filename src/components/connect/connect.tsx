@@ -7,6 +7,7 @@ import linkedin from "@/assets/icons/linkedin-app-white-icon.svg";
 import github from "@/assets/icons/github-icon.svg";
 import email from "@/assets/icons/email.svg";
 import whatsapp from "@/assets/icons/whatsapp.svg";
+import HoverLink from "../common/hover-link";
 
 export default function Connect() {
     const sectionRef = useRef({} as HTMLElement);
@@ -64,7 +65,7 @@ export default function Connect() {
                     with me
                 </h2>
                 <div className="flex gap-5 -translate-x-full opacity-0 animate-slide-right mt-3">
-                    <a
+                    <HoverLink
                         className="grid place-items-center"
                         href="https://www.linkedin.com/in/hussam-alqannam-9ab206299/"
                     >
@@ -73,8 +74,8 @@ export default function Connect() {
                             className="w-10 aspect-square hover:scale-110 transition-transform"
                             src={linkedin}
                         />
-                    </a>
-                    <a
+                    </HoverLink>
+                    <HoverLink
                         className="grid place-items-center"
                         href="https://github.com/HAQ7"
                     >
@@ -83,8 +84,8 @@ export default function Connect() {
                             className="w-10 aspect-square hover:scale-110 transition-transform"
                             src={github}
                         />
-                    </a>
-                    <a
+                    </HoverLink>
+                    <HoverLink
                         className="grid place-items-center"
                         href="mailto:hussam.a.qannam@gmail.com"
                     >
@@ -93,8 +94,8 @@ export default function Connect() {
                             className="w-10 aspect-square hover:scale-110 transition-transform"
                             src={email}
                         />
-                    </a>
-                    <a
+                    </HoverLink>
+                    <HoverLink
                         className="grid place-items-center"
                         href="https://wa.me/966550870073"
                     >
@@ -103,7 +104,7 @@ export default function Connect() {
                             className="w-10 aspect-square hover:scale-110 transition-transform"
                             src={whatsapp}
                         />
-                    </a>
+                    </HoverLink>
                 </div>
             </div>
         </section>
