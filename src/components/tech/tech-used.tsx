@@ -15,7 +15,7 @@ import firebase from "@/assets/tech-circle-items/firebase.svg";
 
 export default function TechUsed() {
     return (
-        <section className="grid place-items-center bg-gradient-to-t from-black via-transparent to-black min-h-screen lg:py-0 py-32 overflow-hidden">
+        <section className="grid place-items-center bg-gradient-to-t from-black via-transparent to-black min-h-screen lg:py-10 gap-20 py-32 overflow-hidden">
             <Title image={tools}>Tech Used</Title>
             <div className="grid place-items-center relative">
                 <div className=" animate-slow-rotate">
@@ -36,7 +36,7 @@ export default function TechUsed() {
                         className="absolute right-[-5%] bottom-[50%] animate-slow-rotate-reverse"
                     />
                     <Image
-                        className="w-[80vw] max-w-[600px]"
+                        className="w-[80vw] md:w-[70vh] max-w-[600px]"
                         src={circle}
                         alt="a rotating circle"
                     />
@@ -55,7 +55,7 @@ export default function TechUsed() {
                         className="absolute left-[30%] bottom-[-6%] animate-slow-rotate"
                     />
                     <Image
-                        className="w-[55vw] max-w-[400px]"
+                        className="w-[55vw] md:w-[45vh] max-w-[400px]"
                         src={circle}
                         alt="a rotating circle"
                     />
@@ -71,7 +71,7 @@ export default function TechUsed() {
                         className="absolute right-0 bottom-[70%] animate-slow-rotate-reverse"
                     />
                     <Image
-                        className="w-[30vw] max-w-[200px]"
+                        className="w-[30vw] md:w-[20vh] max-w-[200px]"
                         src={circle}
                         alt="a rotating circle"
                     />

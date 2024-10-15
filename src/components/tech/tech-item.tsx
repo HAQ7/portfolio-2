@@ -10,7 +10,7 @@ export default function TechItem({
 }) {
     return (
         <div className={"bg-black border-white border rounded-full sm:p-2.5 p-1 overflow-hidden " + className}>
-            <Image className="sm:w-12 w-8" src={image} alt="tech icon" />
+            <Image className="2xl:w-12 lg:w-10 w-8" src={image} alt="tech icon" />
         </div>
     );
 }

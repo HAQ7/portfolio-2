@@ -12,7 +12,7 @@ export default function Volunteering() {
             <div className="flex flex-col justify-center items-center p-4">
                 <div className="grid  gap-10">
                     <Title image={volunteerIcon}>Volunteering</Title>
-                    <div className="max-w-[34rem] grid gap-3 font-extralight 2xl:text-xl text-lg ">
+                    <div className="2xl:max-w-[35rem] max-w-96 grid gap-3 font-extralight 2xl:text-xl text-lg ">
                         <p>
                             Technology Lead for the Social Cultural Club at King
                             Saud University's College of Computer Science and
