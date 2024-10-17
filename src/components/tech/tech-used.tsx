@@ -15,10 +15,10 @@ import firebase from "@/assets/tech-circle-items/firebase.svg";
 
 export default function TechUsed() {
     return (
-        <section className="grid place-items-center bg-gradient-to-t from-black via-transparent to-black min-h-screen lg:py-10 gap-20 py-32 overflow-hidden">
+        <section className="grid place-items-center bg-gradient-to-t from-black via-transparent to-black gap-20 py-32 overflow-hidden">
             <Title image={tools}>Tech Used</Title>
             <div className="grid place-items-center relative">
-                <div className=" animate-slow-rotate">
+                <div className="animate-slow-rotate">
                     <TechItem
                         image={firebase}
                         className="absolute top-[50%] left-[-5%] animate-slow-rotate-reverse"

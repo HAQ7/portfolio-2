@@ -6,13 +6,13 @@ import cert from "@/assets/cert-group.png";
 export default function Volunteering() {
     return (
         <section className="grid lg:grid-cols-2 lg:gap-0 gap-24 bg-gradient-to-t from-black via-transparent to-black min-h-screen lg:py-0 py-32">
-            <div className="grid place-items-center lg:-order-1 order-1 p-5">
+            <div className="grid place-items-center lg:-order-1 order-1 p-5 sm:w-auto w-screen">
                 <Image className="sm:" src={cert} alt="scc certificate and workshop preview" />
             </div>
             <div className="flex flex-col justify-center items-center p-4">
-                <div className="grid  gap-10">
+                <div className="grid lg:place-items-start place-items-center gap-10">
                     <Title image={volunteerIcon}>Volunteering</Title>
-                    <div className="2xl:max-w-[35rem] max-w-96 grid gap-3 font-extralight 2xl:text-xl text-lg ">
+                    <div className="2xl:max-w-[35rem] max-w-96 grid gap-3 font-extralight 2xl:text-xl text-lg lg:text-start text-center">
                         <p>
                             Technology Lead for the Social Cultural Club at King
                             Saud University's College of Computer Science and
@@ -22,7 +22,7 @@ export default function Volunteering() {
                             Dedicated 50+ hours to club initiatives, including:
                         </p>
 
-                        <ul className=" list-inside list-disc">
+                        <ul className=" list-inside list-disc lg:text-start text-center">
                             <li>Facilitating a hands-on GitHub workshop</li>
                             <li>
                                 Spearheading development of the club's official
