@@ -34,7 +34,7 @@ export default function About() {
                     <div className="absolute flex flex-col items-center justify-around h-full text-3xl text-nowrap font-extralight ">
                         <div className="flex flex-col items-center gap-1">
                             <div>+20</div>
-                            <div>websites</div>
+                            <div className="font-normal">websites</div>
                             <div>
                                 <Image
                                     className="w-14"
@@ -45,7 +45,7 @@ export default function About() {
                         </div>
                         <div className="flex flex-col items-center gap-1">
                             <div>+3</div>
-                            <div>Years Web Dev</div>
+                            <div className="font-normal">Years Web Dev</div>
                             <div>
                                 <Image
                                     className="w-14"
@@ -56,7 +56,7 @@ export default function About() {
                         </div>
                         <div className="flex flex-col items-center gap-1">
                             <div>+10</div>
-                            <div>Web Tech</div>
+                            <div className="font-normal">Web Tech</div>
                             <div>
                                 <Image
                                     className="w-14"
