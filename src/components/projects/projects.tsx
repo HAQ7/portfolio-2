@@ -8,7 +8,7 @@ import ProjectCarousel from "./project-carousel";
 
 export default function Projects() {
     return (
-        <section className="min-h-screen bg-black relative flex justify-center items-center flex-col gap-20 py-10">
+        <section className="min-h-screen bg-black relative flex justify-center items-center flex-col lg:gap-20 gap-10 py-10">
             <Image className="absolute right-0 h-full w-auto" src={blueGlow} alt="blue glow"/> 
             <Image className="absolute left-0 h-full w-auto" src={redGlow} alt="red glow"/> 
            <ParticlesBg />
