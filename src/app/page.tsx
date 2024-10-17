@@ -4,7 +4,7 @@ import About from "@/components/about";
 import Volunteering from "@/components/volunteering";
 import Projects from "@/components/projects/projects";
 import TechUsed from "@/components/tech/tech-used";
-import Connect from "@/components/connect/connect";
+import Connect from "@/components/connect";
 import Cursor from "@/components/cursor";
 
 export default function Portfolio() {

@@ -7,7 +7,7 @@ import linkedin from "@/assets/icons/linkedin-app-white-icon.svg";
 import github from "@/assets/icons/github-icon.svg";
 import email from "@/assets/icons/email.svg";
 import whatsapp from "@/assets/icons/whatsapp.svg";
-import HoverLink from "../common/hover-link";
+import HoverLink from "./common/hover-link";
 
 export default function Connect() {
     const sectionRef = useRef({} as HTMLElement);
@@ -20,34 +20,11 @@ export default function Connect() {
             ref={sectionRef}
             className="grid place-items-center bg-gradient-to-b from-black min-h-screen sm:text-5xl text-4xl relative"
         >
-            {/* <div className="absolute grid place-items-center">
-                <ConnectItem
-                    image={typescript}
-                    className="absolute -top-[7%] animate-slow-rotate-reverse"
-                />
-                <ConnectItem
-                    image={javascript}
-                    className="absolute -right-[7%] animate-slow-rotate-reverse"
-                />
-                <ConnectItem
-                    image={tailwind}
-                    className="absolute -bottom-[7%] animate-slow-rotate-reverse"
-                />
-                <ConnectItem
-                    image={tailwind}
-                    className="absolute -left-[7%] animate-slow-rotate-reverse"
-                />
-                <Image
-                    className="w-[80vw] max-w-[500px]"
-                    src={circle}
-                    alt="a rotating circle"
-                />
-            </div> */}
             <div className="grid gap-1">
                 <div className="relative grid items-center text-5xl">
                     <h1
                         className={
-                            "absolute drop-shadow-white overflow-hidden py-1 whitespace-nowrap border-r-2 border-transparent w-0 max-w-min " +
+                            "absolute overflow-hidden py-1 whitespace-nowrap border-r-2 border-transparent w-0 max-w-min pe-2 " +
                             (isInView ? "animate-typing-nodelay" : "")
                         }
                     >

@@ -32,7 +32,7 @@ const config: Config = {
                 "bg-scroll-fastest-mobile":
                     "bg-scroll-mobile 20s 2s linear infinite, bg-scroll-intro-fast-mobile 2s, opacity 2s forwards",
                 opacity: "opacity 2s forwards",
-                typing: "typing 2s 2s steps(40, end) forwards, blink 0.75s 2s 6",
+                typing: "typing 2s 2s steps(40, end) forwards, blink 0.75s 2s 6, overflow 0.1s 4s forwards",
                 overflow: "overflow 1s 5s forwards",
                 rotate: "rotate 10s linear infinite",
                 "cursor-rotate": "rotate 20s linear infinite",
@@ -40,10 +40,9 @@ const config: Config = {
                 "slow-rotate": "rotate 100s linear infinite",
                 "slow-rotate-reverse": "rotate 100s linear infinite reverse",
                 "typing-nodelay":
-                    "typing 1s steps(40, end) forwards, blink 0.75s 4",
+                    "typing 1s steps(40, end) forwards, blink 0.75s 4, overflow 0.1s 1s forwards",
                 "into-sub-title": "opacity 1s 4s forwards",
-                "connect-sub-title":
-                    "opacity 1s 1s forwards",
+                "connect-sub-title": "opacity 1s 1s forwards",
                 "slide-right":
                     "slide-right 0.5s 4.5s forwards, opacity 0.5s 4.5s forwards",
             },
@@ -63,7 +62,11 @@ const config: Config = {
                 },
                 overflow: {
                     "0%": { overflow: "hidden" },
-                    "100%": { overflow: "auto" },
+                    "100%": { overflow: "visible" },
+                },
+                whiteShadow: {
+                    "0%": { filter: "drop-shadow(rgba(255,255,255,0.69) 0px 0px 0px)" },
+                    "100%": { filter: "drop-shadow(rgba(255,255,255,0.69) 0px 0px 14px)" },
                 },
                 opacity: {
                     "0%": { opacity: "0" },
