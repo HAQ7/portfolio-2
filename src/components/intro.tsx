@@ -8,7 +8,7 @@ export default function intro() {
     return (
         <section className="grid place-items-center h-screen sm:text-5xl text-4xl bg-gradient-to-t from-black animate-opacity">
             <div className="grid gap-3">
-                <h1 className="overflow-hidden animate-typing whitespace-nowrap border-r-2 border-transparent mx-0 mt-auto w-0">
+                <h1 className="overflow-hidden animate-typing whitespace-nowrap border-r-2 border-transparent mx-0 mt-auto w-0 font-semibold">
                     Hussam AlQannam
                 </h1>
                 <div className="flex gap-10">

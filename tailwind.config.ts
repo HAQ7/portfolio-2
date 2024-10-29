@@ -41,10 +41,10 @@ const config: Config = {
                 "slow-rotate-reverse": "rotate 100s linear infinite reverse",
                 "typing-nodelay":
                     "typing 1s steps(40, end) forwards, blink 0.75s 4, overflow 0.1s 1s forwards",
-                "into-sub-title": "opacity 1s 4s forwards",
+                "into-sub-title": "opacity 1s 3s forwards",
                 "connect-sub-title": "opacity 1s 1s forwards",
                 "slide-right":
-                    "slide-right 0.5s 4.5s forwards, opacity 0.5s 4.5s forwards",
+                    "slide-right 0.5s 3.5s forwards, opacity 0.5s 3.5s forwards",
             },
             dropShadow: { white: "rgba(255,255,255,0.69) 0px 0px 14px" },
             keyframes: {

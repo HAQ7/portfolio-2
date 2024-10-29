@@ -24,7 +24,7 @@ export default function Connect() {
                 <div className="relative grid items-center text-5xl">
                     <h1
                         className={
-                            "absolute overflow-hidden py-1 whitespace-nowrap border-r-2 border-transparent w-0 max-w-min pe-2 " +
+                            "absolute overflow-hidden py-1 whitespace-nowrap border-r-2 border-transparent w-0 max-w-min pe-2 font-semibold " +
                             (isInView ? "animate-typing-nodelay" : "")
                         }
                     >

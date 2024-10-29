@@ -34,7 +34,7 @@ export default function Title(props: {
             <div className="relative grid items-center sm:text-5xl text-4xl">
                 <h1
                     className={
-                        "absolute overflow-hidden py-1 whitespace-nowrap border-r-2 border-transparent w-0  " +
+                        "absolute overflow-hidden py-1 whitespace-nowrap border-r-2 border-transparent w-0 font-semibold  " +
                         (isInView ? "animate-typing-nodelay" : "")
                     }
                 >
