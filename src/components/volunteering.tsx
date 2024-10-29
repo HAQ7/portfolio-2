@@ -7,7 +7,7 @@ export default function Volunteering() {
     return (
         <section className="grid lg:grid-cols-2 lg:gap-0 gap-24 bg-gradient-to-t from-black via-transparent to-black min-h-screen lg:py-0 py-32">
             <div className="grid place-items-center lg:-order-1 order-1 p-5 sm:w-auto w-screen">
-                {/* <Image className="sm:" src={cert} alt="scc certificate and workshop preview" /> */}
+                <Image className="sm:" src={cert} alt="scc certificate and workshop preview" />
             </div>
             <div className="flex flex-col justify-center items-center p-4">
                 <div className="grid lg:place-items-start place-items-center gap-10">
