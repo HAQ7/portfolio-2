@@ -1,14 +1,10 @@
-'use client';
+// 'use client';
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
-export default function LoopingBg({
-    img,
-}: {
-    img: string;
-}) {
+export default function LoopingBg({ img }: { img: string }) {
     return (
-        <motion.div
+        <div
             className={
                 "sm:bg-[length:100vw] bg-cover fixed top-0 h-screen w-screen -z-10 " +
                 (img === "SPACE"
