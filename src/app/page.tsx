@@ -9,20 +9,18 @@ import Cursor from "@/components/cursor";
 
 export default function Portfolio() {
     return (
-        <LoopingBg img={"SPACE"}>
-            <LoopingBg img={"STARS-SMALL"}>
-                <LoopingBg img={"STARS-LARGE"}>
-                    <div className="h-screen overflow-auto">
-                        <Cursor />
-                        <Intro />
-                        <About />
-                        <Volunteering />
-                        <Projects />
-                        <TechUsed />
-                        <Connect />
-                    </div>
-                </LoopingBg>
-            </LoopingBg>
-        </LoopingBg>
+        <section className="overflow-hidden w-full">
+            <LoopingBg img={"SPACE"} />
+            <LoopingBg img={"STARS-SMALL"} />
+            <LoopingBg img={"STARS-LARGE"} />
+
+            <Cursor />
+            <Intro />
+            <About />
+            <Volunteering />
+            <Projects />
+            <TechUsed />
+            <Connect />
+        </section>
     );
 }

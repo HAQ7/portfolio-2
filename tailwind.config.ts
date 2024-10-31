@@ -74,20 +74,21 @@ const config: Config = {
                 },
                 "bg-scroll-intro": {
                     "0%": { backgroundPositionY: "0" },
-                    "100%": { backgroundPositionY: "-200vw" },
+                    "100%": { backgroundPositionY: "-100vw" },
                 },
                 "bg-scroll-intro-mobile": {
                     "0%": { backgroundPositionY: "0" },
-                    "100%": { backgroundPositionY: "-200vh" },
+                    "100%": { backgroundPositionY: "-100vh" },
                 },
                 "bg-scroll-intro-fast": {
                     "0%": { backgroundPositionY: "0" },
-                    "100%": { backgroundPositionY: "-300vw" },
+                    "100%": { backgroundPositionY: "-200vw" },
                 },
                 "bg-scroll-intro-fast-mobile": {
                     "0%": { backgroundPositionY: "0" },
-                    "100%": { backgroundPositionY: "-300vh" },
+                    "100%": { backgroundPositionY: "-200vh" },
                 },
+                
                 typing: {
                     from: { width: "0" },
                     to: { width: "100%" },
