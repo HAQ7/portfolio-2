@@ -8,6 +8,7 @@ import github from "@/assets/icons/github-icon.svg";
 import email from "@/assets/icons/email.svg";
 import whatsapp from "@/assets/icons/whatsapp.svg";
 import HoverLink from "./common/hover-link";
+import ScrollAnimationSection from "./common/scroll-animation-section";
 
 export default function Connect() {
     const sectionRef = useRef({} as HTMLElement);
@@ -18,8 +19,10 @@ export default function Connect() {
     return (
         <section
             ref={sectionRef}
-            className="grid place-items-center bg-gradient-to-b from-black min-h-screen sm:text-5xl text-4xl relative"
+            className="bg-gradient-to-b from-black "
         >
+            <ScrollAnimationSection>
+            <div className="grid place-items-center min-h-screen sm:text-5xl text-4xl relative">
             <div className="grid gap-1">
                 <div className="relative grid items-center text-5xl">
                     <h1
@@ -84,6 +87,8 @@ export default function Connect() {
                     </HoverLink>
                 </div>
             </div>
+            </div>
+            </ScrollAnimationSection>
         </section>
     );
 }
