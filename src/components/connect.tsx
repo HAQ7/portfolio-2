@@ -44,7 +44,7 @@ export default function Connect() {
                 >
                     with me
                 </h2>
-                <div className="flex gap-5 -translate-x-full opacity-0 animate-slide-right mt-3">
+                <div className="flex gap-5 mt-3">
                     <HoverLink
                         className="grid place-items-center"
                         href="https://www.linkedin.com/in/hussam-alqannam-9ab206299/"
