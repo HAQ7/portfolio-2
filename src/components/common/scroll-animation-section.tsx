@@ -21,13 +21,13 @@ export default function scrollAnimationSection({
     // });
     const opacityProgressIn = useTransform(
         scrollYProgressIn.scrollYProgress,
-        [0, 0.3, 0.6, 1],
+        [0, 0.4, 0.6, 1],
         [0, 1, 1, 0]
     );
     const scaleProgressIn = useTransform(
         scrollYProgressIn.scrollYProgress,
-        [0, 0.3, 0.6, 1],
-        [1.2, 1, 1, 0.8]
+        [0, 0.4, 0.6, 1],
+        [1.3, 1, 1, 0.7]
     );
 
     // const opacityProgressOut = useTransform(scrollYProgressOut.scrollYProgress, [0, 1], [1, 0]);
