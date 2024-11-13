@@ -14,6 +14,13 @@ export const projects: project[] = [
         tech: ["NextJS", "TailwindCSS", "Firebase"],
     },
     {
+        title: "Basirah",
+        description:
+            "Your intelligent financial companion that transforms complex market data into clear insights, helping investors at all levels make confident decisions.",
+        href: "https://basirah.vercel.app/",
+        tech: ["NextJS", "TailwindCSS", "Framer Motion"],
+    },
+    {
         title: "Code Board",
         description:
             "A Stack Overflow-like website where users can post questions, answers, comments, and rate them.",
