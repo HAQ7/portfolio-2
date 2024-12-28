@@ -75,16 +75,6 @@ export default function Connect() {
                             src={email}
                         />
                     </HoverLink>
-                    <HoverLink
-                        className="grid place-items-center"
-                        href="https://wa.me/966550870073"
-                    >
-                        <Image
-                            alt="whatsaap icon"
-                            className="w-10 aspect-square hover:scale-110 transition-transform"
-                            src={whatsapp}
-                        />
-                    </HoverLink>
                 </div>
             </div>
             </div>
