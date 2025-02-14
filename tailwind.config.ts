@@ -20,17 +20,17 @@ const config: Config = {
             },
             animation: {
                 "bg-scroll-slow":
-                    "bg-scroll 80s 2s linear infinite, bg-scroll 2s, opacity 2s forwards",
+                    "bg-scroll 100s 2s linear infinite, bg-scroll 2s, opacity 2s forwards",
                 "bg-scroll-slow-mobile":
-                    "bg-scroll-mobile 80s 2s linear infinite, bg-scroll-mobile 2s, opacity 2s forwards",
+                    "bg-scroll-mobile 100s 2s linear infinite, bg-scroll-mobile 2s, opacity 2s forwards",
                 "bg-scroll-fast":
-                    "bg-scroll 40s 2s linear infinite, bg-scroll-intro 2s, opacity 2s forwards",
+                    "bg-scroll 80s 2s linear infinite, bg-scroll-intro 2s, opacity 2s forwards",
                 "bg-scroll-fast-mobile":
-                    "bg-scroll-mobile 40s 2s linear infinite, bg-scroll-intro-mobile 2s, opacity 2s forwards",
+                    "bg-scroll-mobile 80s 2s linear infinite, bg-scroll-intro-mobile 2s, opacity 2s forwards",
                 "bg-scroll-fastest":
-                    "bg-scroll 20s 2s linear infinite, bg-scroll-intro-fast 2s, opacity 2s forwards",
+                    "bg-scroll 60s 2s linear infinite, bg-scroll-intro-fast 2s, opacity 2s forwards",
                 "bg-scroll-fastest-mobile":
-                    "bg-scroll-mobile 20s 2s linear infinite, bg-scroll-intro-fast-mobile 2s, opacity 2s forwards",
+                    "bg-scroll-mobile 60s 2s linear infinite, bg-scroll-intro-fast-mobile 2s, opacity 2s forwards",
                 opacity: "opacity 2s forwards",
                 typing: "typing 2s 2s steps(40, end) forwards, blink 0.75s 2s 6, overflow 0.1s 4s forwards",
                 overflow: "overflow 1s 5s forwards",
@@ -74,19 +74,19 @@ const config: Config = {
                 },
                 "bg-scroll-intro": {
                     "0%": { backgroundPositionY: "0" },
-                    "100%": { backgroundPositionY: "-200vw" },
+                    "100%": { backgroundPositionY: "-100vw" },
                 },
                 "bg-scroll-intro-mobile": {
                     "0%": { backgroundPositionY: "0" },
-                    "100%": { backgroundPositionY: "-200vh" },
+                    "100%": { backgroundPositionY: "-100vh" },
                 },
                 "bg-scroll-intro-fast": {
                     "0%": { backgroundPositionY: "0" },
-                    "100%": { backgroundPositionY: "-300vw" },
+                    "100%": { backgroundPositionY: "-200vw" },
                 },
                 "bg-scroll-intro-fast-mobile": {
                     "0%": { backgroundPositionY: "0" },
-                    "100%": { backgroundPositionY: "-300vh" },
+                    "100%": { backgroundPositionY: "-200vh" },
                 },
                 
                 typing: {

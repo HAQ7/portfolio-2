@@ -2,6 +2,7 @@ import linkedinIcon from "@/assets/icons/linkedin-app-white-icon.svg";
 import githubIcon from "@/assets/icons/github-icon.svg";
 import Image from "next/image";
 import HoverLink from "./common/hover-link";
+import cv from '@/assets/icons/cv.svg'
 
 export default function intro() {
 
@@ -36,6 +37,16 @@ export default function intro() {
                                 src={githubIcon}
                             />
                         </HoverLink>
+                        <HoverLink
+                        className="grid place-items-center"
+                        href="hussamCV.pdf"
+                    >
+                        <Image
+                            alt="cv icon"
+                            className="w-10 aspect-square hover:scale-110 transition-transform"
+                            src={cv}
+                        />
+                    </HoverLink>
                     </div>
                 </div>
             </div>

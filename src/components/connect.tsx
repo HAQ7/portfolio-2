@@ -6,7 +6,7 @@ import Image from "next/image";
 import linkedin from "@/assets/icons/linkedin-app-white-icon.svg";
 import github from "@/assets/icons/github-icon.svg";
 import email from "@/assets/icons/email.svg";
-import whatsapp from "@/assets/icons/whatsapp.svg";
+import cv from '@/assets/icons/cv.svg'
 import HoverLink from "./common/hover-link";
 import ScrollAnimationSection from "./common/scroll-animation-section";
 
@@ -73,6 +73,16 @@ export default function Connect() {
                             alt="email icon"
                             className="w-10 aspect-square hover:scale-110 transition-transform"
                             src={email}
+                        />
+                    </HoverLink>
+                    <HoverLink
+                        className="grid place-items-center"
+                        href="hussamCV.pdf"
+                    >
+                        <Image
+                            alt="cv icon"
+                            className="w-10 aspect-square hover:scale-110 transition-transform"
+                            src={cv}
                         />
                     </HoverLink>
                 </div>
