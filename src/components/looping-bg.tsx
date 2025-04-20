@@ -35,12 +35,12 @@ export default function LoopingBg({ bgType }: { bgType: LoopingBgType }) {
                 "sm:bg-[length:100vw] bg-[length:100vh] fixed top-0 w-screen -z-10 " +
                 (LoopingBgType.SPACE === bgType
                     ? //  sm:animate-bg-scroll-slow animate-bg-scroll-slow-mobile
-                      "bg-[url('../assets/looping-backgrounds/space-bg.png')] sm:animate-bg-scroll-slow animate-bg-scroll-slow-mobile h-[300vh]"
+                      "bg-[url('../assets/looping-backgrounds/space-bg.webp')] sm:animate-bg-scroll-slow animate-bg-scroll-slow-mobile h-[300vh]"
                     : LoopingBgType.STARS_SMALL === bgType
                     ? //  sm:animate-bg-scroll-fast animate-bg-scroll-fast-mobile
-                      "bg-[url('../assets/looping-backgrounds/stars-small-bg.png')] sm:animate-bg-scroll-fast animate-bg-scroll-fast-mobile h-[350vh]"
+                      "bg-[url('../assets/looping-backgrounds/stars-small-bg.webp')] sm:animate-bg-scroll-fast animate-bg-scroll-fast-mobile h-[350vh]"
                     : // sm:animate-bg-scroll-fastest animate-bg-scroll-fastest-mobile
-                      "bg-[url('../assets/looping-backgrounds/stars-large-bg.png')] sm:animate-bg-scroll-fastest animate-bg-scroll-fastest-mobile h-[400vh]")
+                      "bg-[url('../assets/looping-backgrounds/stars-large-bg.webp')] sm:animate-bg-scroll-fastest animate-bg-scroll-fastest-mobile h-[400vh]")
             }
         />
     );
