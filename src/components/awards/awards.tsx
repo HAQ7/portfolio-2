@@ -8,7 +8,7 @@ export default function Awards() {
         <section className=" bg-gradient-to-t from-black via-transparent to-black">
             <ScrollAnimationSection>
                 <div className="grid lg:grid-cols-2 lg:gap-0 gap-24 lg:py-0 py-32 min-h-screen place-items-center">
-                    <div className="grid place-items-center lg:-order-1 order-1 sm:w-auto w-screen h-full max-h-[800px] border-y-2 border-dashed overflow-hidden relative">
+                    <div className="grid place-items-center lg:-order-1 order-1 sm:w-auto w-screen h-full max-h-[800px] border-y-2 border-dashed overflow-hidden relative sm:px-5 ">
                         <AwardCarousel />
                     </div>
                     <div className="flex flex-col justify-center items-center p-4">
