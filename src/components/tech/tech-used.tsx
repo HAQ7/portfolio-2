@@ -12,6 +12,9 @@ import typescript from "@/assets/tech-circle-items/typescript.svg";
 import javascript from "@/assets/tech-circle-items/javascript.svg";
 import git from "@/assets/tech-circle-items/git.svg";
 import firebase from "@/assets/tech-circle-items/firebase.svg";
+import express from "@/assets/tech-circle-items/express.svg";
+import postgress from "@/assets/tech-circle-items/postgresql.svg";
+import prisma from "@/assets/tech-circle-items/prisma.svg";
 import ScrollAnimationSection from "../common/scroll-animation-section";
 
 export default function TechUsed() {
@@ -27,7 +30,7 @@ export default function TechUsed() {
                                 className="absolute top-[50%] left-[-5%] animate-slow-rotate-reverse"
                             />
                             <TechItem
-                                image={figma}
+                                image={prisma}
                                 className="absolute left-[60%] top-[-3%] animate-slow-rotate-reverse"
                             />
                             <TechItem
@@ -50,7 +53,7 @@ export default function TechUsed() {
                                 className="absolute top-[60%] right-[-3%] animate-slow-rotate"
                             />
                             <TechItem
-                                image={javascript}
+                                image={postgress}
                                 className="absolute left-[30%] top-[-5%] animate-slow-rotate"
                             />
                             <TechItem
@@ -70,8 +73,8 @@ export default function TechUsed() {
                             />
 
                             <TechItem
-                                image={framer}
-                                className="absolute right-0 bottom-[70%] animate-slow-rotate-reverse"
+                                image={express}
+                                className="absolute right-0 bottom-[70%] animate-slow-rotate-reverse aspect-square grid place-items-center"
                             />
                             <Image
                                 className="w-[30vw] md:w-[20vh] max-w-[200px]"

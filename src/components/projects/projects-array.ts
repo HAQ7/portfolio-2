@@ -7,18 +7,32 @@ export type project = {
 
 export const projects: project[] = [
     {
-        title: "SCC Website",
+        title: "Grad Project: Munaseq",
         description:
-            "The official website for Social Cultural Club at the Collage of Computer and Information Science at King Saud University",
-        href: "https://www.scc-ksu.club",
-        tech: ["NextJS", "TailwindCSS", "Firebase"],
+            "Munaseq – a comprehensive platform for organizing and managing educational events, whether in-person or online.",
+        href: "https://www.munaseq.site/",
+        tech: ["NextJS", "NestJS", "PostgreSQL"],
+    },
+    {
+        title: "Soun",
+        description:
+            "Soun is a medical imaging platform for secure DICOM upload, viewing, and anonymization to protect patient data.",
+        href: "https://soun-one.vercel.app/",
+        tech: ["NextJS", "FastAPI"],
     },
     {
         title: "Basirah",
         description:
             "Your intelligent financial companion that transforms complex market data into clear insights, helping investors at all levels make confident decisions.",
         href: "https://basirah.vercel.app/",
-        tech: ["NextJS", "TailwindCSS", "Framer Motion"],
+        tech: ["NextJS", "GPT4-0-mini", "Mixtral-8x22b"],
+    },
+    {
+        title: "SCC Website",
+        description:
+            "The official website for Social Cultural Club at the Collage of Computer and Information Science at King Saud University",
+        href: "https://www.scc-ksu.club",
+        tech: ["NextJS", "TailwindCSS", "Firebase"],
     },
     {
         title: "Code Board",
