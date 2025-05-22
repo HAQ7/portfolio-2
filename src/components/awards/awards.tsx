@@ -40,7 +40,7 @@ export default function Awards() {
     return (
         <section className="bg-gradient-to-t from-black via-transparent to-black z-10">
             <div ref={ref} className="lg:py-0 min-h-screen h-[300vh] relative">
-                <div className=" sticky top-0 h-screen flex lg:flex-row flex-col lg:justify-around justify-start items-center py-5">
+                <div className=" sticky top-0 h-screen flex lg:flex-row flex-col lg:justify-around justify-start items-center pt-5">
                     <div className="flex flex-col justify-center items-center p-4">
                         <div className="grid lg:place-items-start place-items-center gap-10">
                             <Title image={awardIcon}>
@@ -62,7 +62,7 @@ export default function Awards() {
                     </div>
                     <div
                         ref={containerRef}
-                        className="lg:-order-1 order-1 overflow-hidden lg:flex-none flex-1 border-y-2 border-[#838383] border-dashed h-[60vh] relative p-5"
+                        className="lg:-order-1 order-1 overflow-hidden lg:flex-none flex-1 border-t-2 lg:border-b-2 border-[#838383] border-dashed h-[60vh] relative p-5"
                     >
                         <motion.div
                             ref={scrollRef}
