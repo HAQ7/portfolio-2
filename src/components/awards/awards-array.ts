@@ -24,7 +24,7 @@ export const awards: award[] = [
         image: "/dean.jpg",
     },
     {
-        title: "150+ as Technical committee leader at SCC",
+        title: "150+ hours as Technical committee leader at SCC",
         description:
             " Led a team of 5+ developers to design and develop the offical website for SCC.",
         image: "/leader.jpg",

@@ -10,18 +10,23 @@ import Awards from "@/components/awards/awards";
 
 export default function Portfolio() {
     return (
-        <section className="overflow-hidden w-full">
+        <section className="w-full">
             <LoopingBg bgType={LoopingBgType.SPACE} />
             <LoopingBg bgType={LoopingBgType.STARS_SMALL} />
             <LoopingBg bgType={LoopingBgType.STARS_LARGE} />
+            <div className="overflow-hidden w-full">
+                <Cursor />
+                <Intro />
+                <About />
+            </div>
 
-            <Cursor />
-            <Intro />
-            <About />
             <Awards />
-            <Projects />
-            <TechUsed />
-            <Connect />
+
+            <div className="overflow-hidden w-full">
+                <Projects />
+                <TechUsed />
+                <Connect />
+            </div>
         </section>
     );
 }

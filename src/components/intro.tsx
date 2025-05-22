@@ -7,7 +7,8 @@ import cv from '@/assets/icons/cv.svg'
 export default function intro() {
 
     return (
-        <section className="grid place-items-center h-screen sm:text-5xl text-4xl bg-gradient-to-t from-black animate-opacity">
+        <section className="grid place-items-center h-screen sm:text-5xl text-4xl bg-gradient-to-t from-black">
+            <div className="bg-black absolute w-full h-full animate-opacity-rev"/>
             <div className="grid gap-3">
                 <h1 className="overflow-hidden animate-typing whitespace-nowrap border-r-2 border-transparent mx-0 mt-auto w-0 font-semibold">
                     Hussam AlQannam

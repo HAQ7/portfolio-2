@@ -3,24 +3,19 @@ import tools from "@/assets/icons/tools.svg";
 import Image from "next/image";
 import circle from "@/assets/tech-circle.png";
 import TechItem from "./tech-item";
-import figma from "@/assets/tech-circle-items/figma.svg";
-import framer from "@/assets/tech-circle-items/framer.svg";
 import react from "@/assets/tech-circle-items/react.svg";
 import next from "@/assets/tech-circle-items/next.svg";
 import tailwind from "@/assets/tech-circle-items/tailwind.svg";
 import typescript from "@/assets/tech-circle-items/typescript.svg";
-import javascript from "@/assets/tech-circle-items/javascript.svg";
 import git from "@/assets/tech-circle-items/git.svg";
 import firebase from "@/assets/tech-circle-items/firebase.svg";
 import express from "@/assets/tech-circle-items/express.svg";
 import postgress from "@/assets/tech-circle-items/postgresql.svg";
 import prisma from "@/assets/tech-circle-items/prisma.svg";
-import ScrollAnimationSection from "../common/scroll-animation-section";
 
 export default function TechUsed() {
     return (
         <section className="bg-gradient-to-t from-black via-transparent to-black ">
-            <ScrollAnimationSection>
                 <div className="grid place-items-center gap-20 py-32 overflow-hidden">
                     <Title image={tools}>Tech Used</Title>
                     <div className="grid place-items-center relative">
@@ -84,7 +79,6 @@ export default function TechUsed() {
                         </div>
                     </div>
                 </div>
-            </ScrollAnimationSection>
         </section>
     );
 }

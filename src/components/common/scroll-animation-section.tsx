@@ -36,6 +36,7 @@ export default function scrollAnimationSection({
     return (
         <motion.div
             style={{ opacity: opacityProgressIn, scale: scaleProgressIn }}
+            className="relative"
             ref={ref}
         >
             {children}

@@ -20,19 +20,20 @@ const config: Config = {
             },
             animation: {
                 "bg-scroll-slow":
-                    "bg-scroll 100s 2s linear infinite, bg-scroll 2s, opacity 2s forwards",
+                    "bg-scroll 100s linear infinite",
                 "bg-scroll-slow-mobile":
-                    "bg-scroll-mobile 100s 2s linear infinite, bg-scroll-mobile 2s, opacity 2s forwards",
+                    "bg-scroll-mobile 100s  linear infinite",
                 "bg-scroll-fast":
-                    "bg-scroll 80s 2s linear infinite, bg-scroll-intro 2s, opacity 2s forwards",
+                    "bg-scroll 80s  linear infinite",
                 "bg-scroll-fast-mobile":
-                    "bg-scroll-mobile 80s 2s linear infinite, bg-scroll-intro-mobile 2s, opacity 2s forwards",
+                    "bg-scroll-mobile 80s linear infinite",
                 "bg-scroll-fastest":
-                    "bg-scroll 60s 2s linear infinite, bg-scroll-intro-fast 2s, opacity 2s forwards",
+                    "bg-scroll 60s linear infinite",
                 "bg-scroll-fastest-mobile":
-                    "bg-scroll-mobile 60s 2s linear infinite, bg-scroll-intro-fast-mobile 2s, opacity 2s forwards",
+                    "bg-scroll-mobile 60s linear infinite",
                 opacity: "opacity 2s forwards",
-                typing: "typing 2s 2s steps(40, end) forwards, blink 0.75s 2s 6, overflow 0.1s 4s forwards",
+                "opacity-rev": "opacity reverse 1s forwards",
+                typing: "typing 2s steps(40, end) forwards, blink 0.75s 6, overflow 0.1s 4s forwards",
                 overflow: "overflow 1s 5s forwards",
                 rotate: "rotate 10s linear infinite",
                 "cursor-rotate": "rotate 20s linear infinite",
@@ -41,10 +42,10 @@ const config: Config = {
                 "slow-rotate-reverse": "rotate 100s linear infinite reverse",
                 "typing-nodelay":
                     "typing 1s steps(40, end) forwards, blink 0.75s 4, overflow 0.1s 1s forwards",
-                "into-sub-title": "opacity 1s 3s forwards",
+                "into-sub-title": "opacity 1s 2s forwards",
                 "connect-sub-title": "opacity 1s 1s forwards",
                 "slide-right":
-                    "slide-right 0.5s 3.5s forwards, opacity 0.5s 3.5s forwards",
+                    "slide-right 0.5s 2.5s forwards, opacity 0.5s 2.5s forwards",
             },
             dropShadow: { white: "rgba(255,255,255,0.69) 0px 0px 14px" },
             keyframes: {
