@@ -9,8 +9,8 @@ import { useRef, useLayoutEffect, useState } from "react";
 
 export default function Awards() {
     const ref = useRef(null);
-    const scrollRef = useRef(null);
-    const containerRef = useRef(null);
+    const scrollRef = useRef(null as any);
+    const containerRef = useRef(null as any);
     const [maxScroll, setMaxScroll] = useState(0);
 
     const { scrollYProgress } = useScroll({
