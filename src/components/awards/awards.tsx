@@ -62,7 +62,7 @@ export default function Awards() {
                     </div>
                     <div
                         ref={containerRef}
-                        className="lg:-order-1 order-1 overflow-hidden lg:flex-none flex-1 border-t-2 lg:border-b-2 border-[#838383] border-dashed h-[60vh] relative p-5"
+                        className="lg:-order-1 order-1 overflow-hidden lg:flex-none flex-1 border-t-2 lg:border-b-2 border-[#838383] border-dashed h-[60vh] relative p-5 max-w-full"
                     >
                         <motion.div
                             ref={scrollRef}
